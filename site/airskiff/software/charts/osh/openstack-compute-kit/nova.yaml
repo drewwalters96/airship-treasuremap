@@ -1,0 +1,20 @@
+---
+schema: armada/Chart/v1
+metadata:
+  schema: metadata/Document/v1
+  name: nova
+  layeringDefinition:
+    abstract: false
+    layer: site
+    parentSelector:
+      name: nova-global
+    actions:
+      - method: replace
+        path: .values.conf.ceph.enabled
+  storagePolicy: cleartext
+data:
+  values:
+    conf:
+      ceph:
+        enabled: false
+...
