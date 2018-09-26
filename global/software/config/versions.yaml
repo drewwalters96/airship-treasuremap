@@ -7,415 +7,579 @@ data:
         reference: df19b615ca024a668ff517391141a9f29ed36731
         subpath: charts/apiserver
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       apiserver-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       calico:
         calico:
           location: https://git.openstack.org/openstack/openstack-helm-infra
           reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
           subpath: calico
           type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
         calico-htk:
           location: https://git.openstack.org/openstack/openstack-helm-infra
           reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
           subpath: helm-toolkit
           type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
         etcd:
           location: https://git.openstack.org/openstack/airship-promenade
           reference: df19b615ca024a668ff517391141a9f29ed36731
           subpath: charts/etcd
           type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
         etcd-htk:
           location: https://git.openstack.org/openstack/openstack-helm-infra
           reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
           subpath: helm-toolkit
           type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       controller-manager:
         location: https://git.openstack.org/openstack/airship-promenade
         reference: df19b615ca024a668ff517391141a9f29ed36731
         subpath: charts/controller_manager
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       controller-manager-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       coredns:
         location: https://git.openstack.org/openstack/airship-promenade
         reference: df19b615ca024a668ff517391141a9f29ed36731
         subpath: charts/coredns
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       coredns-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       etcd:
         location: https://git.openstack.org/openstack/airship-promenade
         reference: df19b615ca024a668ff517391141a9f29ed36731
         subpath: charts/etcd
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       etcd-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       haproxy:
         location: https://git.openstack.org/openstack/airship-promenade
         reference: df19b615ca024a668ff517391141a9f29ed36731
         subpath: charts/haproxy
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       haproxy-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       ingress:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: ingress
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       ingress-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       proxy:
         location: https://git.openstack.org/openstack/airship-promenade
         reference: df19b615ca024a668ff517391141a9f29ed36731
         subpath: charts/proxy
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       proxy-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       scheduler:
         location: https://git.openstack.org/openstack/airship-promenade
         reference: df19b615ca024a668ff517391141a9f29ed36731
         subpath: charts/scheduler
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       scheduler-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
     osh:
       barbican:
         location: https://git.openstack.org/openstack/openstack-helm
         reference: f97e644aa6701933041118b1a3fa6da6356c1667
         subpath: barbican
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       cinder:
         location: https://git.openstack.org/openstack/openstack-helm
         reference: f97e644aa6701933041118b1a3fa6da6356c1667
         subpath: cinder
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       glance:
         location: https://git.openstack.org/openstack/openstack-helm
         reference: f97e644aa6701933041118b1a3fa6da6356c1667
         subpath: glance
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       heat:
         location: https://git.openstack.org/openstack/openstack-helm
         reference: f97e644aa6701933041118b1a3fa6da6356c1667
         subpath: heat
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       helm_toolkit:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       horizon:
         location: https://git.openstack.org/openstack/openstack-helm
         reference: f97e644aa6701933041118b1a3fa6da6356c1667
         subpath: horizon
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       ingress:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: ingress
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       keystone:
         location: https://git.openstack.org/openstack/openstack-helm
         reference: f97e644aa6701933041118b1a3fa6da6356c1667
         subpath: keystone
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       libvirt:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: libvirt
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       mariadb:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: mariadb
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       memcached:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: memcached
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       neutron:
         location: https://git.openstack.org/openstack/openstack-helm
         reference: f97e644aa6701933041118b1a3fa6da6356c1667
         subpath: neutron
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       nova:
         location: https://git.openstack.org/openstack/openstack-helm
         reference: f97e644aa6701933041118b1a3fa6da6356c1667
         subpath: nova
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       openvswitch:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: openvswitch
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       rabbitmq:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: rabbitmq
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
     osh_infra:
       elasticsearch:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: elasticsearch
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       fluent_logging:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: fluent-logging
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       grafana:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: grafana
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       helm_toolkit:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       kibana:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: kibana
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       nagios:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: nagios
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       prometheus:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: prometheus
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       prometheus_alertmanager:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: prometheus-alertmanager
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       prometheus_kube_state_metrics:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: prometheus-kube-state-metrics
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       prometheus_node_exporter:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: prometheus-node-exporter
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       prometheus_openstack_exporter:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: prometheus-openstack-exporter
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
     ucp:
       armada:
         location: https://git.openstack.org/openstack/airship-armada
         reference: daa5863c07909dbf4337bb5c25df45efca5d6df3
         subpath: charts/armada
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       armada-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       barbican:
         location: https://git.openstack.org/openstack/openstack-helm
         reference: f97e644aa6701933041118b1a3fa6da6356c1667
         subpath: barbican
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       barbican-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       ceph-client:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 4f4e9c5838e9cdf25c453c6a5b85bfc1ce12ad91
         subpath: ceph-client
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       ceph-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 4f4e9c5838e9cdf25c453c6a5b85bfc1ce12ad91
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       ceph-mon:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 4f4e9c5838e9cdf25c453c6a5b85bfc1ce12ad91
         subpath: ceph-mon
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       ceph-osd:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 4f4e9c5838e9cdf25c453c6a5b85bfc1ce12ad91
         subpath: ceph-osd
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       ceph-provisioners:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 4f4e9c5838e9cdf25c453c6a5b85bfc1ce12ad91
         subpath: ceph-provisioners
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       ceph-rgw:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 4f4e9c5838e9cdf25c453c6a5b85bfc1ce12ad91
         subpath: ceph-rgw
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       deckhand:
         location: https://git.openstack.org/openstack/airship-deckhand
         reference: 243c2741bda763b5b7f76e0f2ee563c96b964e3b
         subpath: charts/deckhand
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       deckhand-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       divingbell:
         location: https://git.openstack.org/openstack/airship-divingbell
         reference: d734925bb6d80bb0fd3970641d7be08a70f1a453
         subpath: divingbell
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       divingbell-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       drydock:
         location: https://git.openstack.org/openstack/airship-drydock
         reference: b52282db38f24c9d3035974d6d124ca6c82ffb29
         subpath: charts/drydock
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       drydock-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       ingress:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: ingress
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       ingress-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       keystone:
         location: https://git.openstack.org/openstack/openstack-helm
         reference: f97e644aa6701933041118b1a3fa6da6356c1667
         subpath: keystone
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       keystone-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       maas:
         location: https://git.openstack.org/openstack/airship-maas
         reference: 8cbbc1015abf8a688e85c1314982a9cade35bd61
         subpath: charts/maas
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       maas-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       mariadb:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: mariadb
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       mariadb-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       memcached:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: memcached
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       memcached-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       postgresql:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: postgresql
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       postgresql-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       promenade:
         location: https://git.openstack.org/openstack/airship-promenade
         reference: df19b615ca024a668ff517391141a9f29ed36731
         subpath: charts/promenade
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       promenade-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       rabbitmq:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: rabbitmq
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       rabbitmq-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       shipyard:
         location: https://git.openstack.org/openstack/airship-shipyard
         reference: 0a14e7e80fb7b7bd41b29e9690f231229c1e95ca
         subpath: charts/shipyard
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       shipyard-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       tiller:
         location: https://git.openstack.org/openstack/airship-armada
         reference: daa5863c07909dbf4337bb5c25df45efca5d6df3
         subpath: charts/tiller
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
       tiller-htk:
         location: https://git.openstack.org/openstack/openstack-helm-infra
         reference: 7d228ef280ad4a9a7ee8757e816c81f5fb963994
         subpath: helm-toolkit
         type: git
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
   files:
     kubelet: https://dl.k8s.io/v1.10.2/kubernetes-node-linux-amd64.tar.gz
   images:
@@ -925,6 +1089,8 @@ data:
         distributions:
         - ubuntu-xenial
         repo_type: apt
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
         url: http://apt.dockerproject.org/repo
       main_archive:
         components:
@@ -934,6 +1100,8 @@ data:
         distributions:
         - xenial
         repo_type: apt
+        proxy_server: http://one.proxy.att.com:8888
+        proxy_server: http://one.proxy.att.com:8888
         subrepos:
         - security
         - updates

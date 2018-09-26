@@ -1,0 +1,23 @@
+---
+schema: armada/Chart/v1
+metadata:
+  schema: metadata/Document/v1
+  name: nova-airskiff
+  labels:
+    name: nova-airskiff
+    component: nova
+  layeringDefinition:
+    abstract: true
+    layer: site
+    parentSelector:
+      name: nova-global
+    actions:
+      - method: merge
+        path: .
+  storagePolicy: cleartext
+data:
+  values:
+    conf:
+      ceph:
+        enabled: false
+...

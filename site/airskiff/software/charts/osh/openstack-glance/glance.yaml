@@ -1,0 +1,21 @@
+---
+schema: armada/Chart/v1
+metadata:
+  schema: metadata/Document/v1
+  name: glance-airskiff
+  labels:
+    name: glance-airskiff
+    component: glance
+  layeringDefinition:
+    abstract: true
+    layer: site
+    parentSelector:
+      name: glance
+    actions:
+      - method: merge
+        path: .
+  storagePolicy: cleartext
+data:
+  values:
+    storage: pvc
+...
