@@ -1,0 +1,18 @@
+---
+# NOTE(@drewwalters96): This file is a duplicate of the airship-seaworthy site
+#   and is not used by Airskiff.
+schema: armada/Chart/v1
+metadata:
+  schema: metadata/Document/v1
+  name: fluent-logging
+  layeringDefinition:
+    abstract: false
+    layer: site
+    parentSelector:
+      hosttype: fluent-logging-global
+    actions:
+      - method: merge
+        path: .
+  storagePolicy: cleartext
+data: {}
+...

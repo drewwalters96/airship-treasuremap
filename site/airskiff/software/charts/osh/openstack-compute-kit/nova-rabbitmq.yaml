@@ -1,0 +1,23 @@
+---
+schema: armada/Chart/v1
+metadata:
+  schema: metadata/Document/v1
+  name: nova-rabbitmq-airskiff
+  layeringDefinition:
+    abstract: false
+    layer: site
+    parentSelector:
+      name: nova-rabbitmq-global
+      component: nova
+    actions:
+      - method: delete
+        path: .values.labels.prometheus_rabbitmq_exporter
+      - method: merge
+        path: .values.monitoring
+  storagePolicy: cleartext
+data:
+  values:
+    monitoring:
+      prometheus:
+        enabled: false
+...
