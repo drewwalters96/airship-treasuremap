@@ -1,0 +1,20 @@
+---
+schema: armada/Chart/v1
+metadata:
+  schema: metadata/Document/v1
+  name: glance
+  labels:
+    component: glance
+  layeringDefinition:
+    abstract: false
+    layer: site
+    parentSelector:
+      name: glance-global
+    actions:
+      - method: merge
+        path: .
+  storagePolicy: cleartext
+data:
+  values:
+    storage: pvc
+...

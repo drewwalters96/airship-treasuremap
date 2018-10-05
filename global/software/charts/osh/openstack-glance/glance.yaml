@@ -2,11 +2,12 @@
 schema: armada/Chart/v1
 metadata:
   schema: metadata/Document/v1
-  name: glance
+  name: glance-global
   labels:
+    name: glance-global
     component: glance
   layeringDefinition:
-    abstract: false
+    abstract: true
     layer: global
   storagePolicy: cleartext
   substitutions:

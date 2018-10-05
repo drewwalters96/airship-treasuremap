@@ -1,0 +1,21 @@
+---
+schema: armada/Chart/v1
+metadata:
+  schema: metadata/Document/v1
+  name: openvswitch-airskiff
+  labels:
+    name: openvswitch-airskiff
+    component: openvswitch
+  layeringDefinition:
+    abstract: true
+    layer: site
+    parentSelector:
+      name: openvswitch-global
+    actions:
+      - method: delete
+        path: .
+  storagePolicy: cleartext
+# NOTE(@drewwalters96): Clear global data to avoid conflicts with
+#	single-node deployment.
+data: {}
+...
