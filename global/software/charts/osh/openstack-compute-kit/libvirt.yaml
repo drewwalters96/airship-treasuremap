@@ -4,7 +4,7 @@ metadata:
   schema: metadata/Document/v1
   name: libvirt
   labels:
-    name: libvirt-global
+    name: libvirt
     component: libvirt
   layeringDefinition:
     abstract: false

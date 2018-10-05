@@ -4,7 +4,7 @@ metadata:
   schema: metadata/Document/v1
   name: neutron
   labels:
-    name: neutron-global
+    name: neutron
     component: neutron
   layeringDefinition:
     abstract: false

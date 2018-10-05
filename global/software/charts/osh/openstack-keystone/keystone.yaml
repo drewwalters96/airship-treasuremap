@@ -4,7 +4,7 @@ metadata:
   schema: metadata/Document/v1
   name: keystone
   labels:
-    name: keystone-global
+    name: keystone
     component: keystone
   layeringDefinition:
     abstract: false
